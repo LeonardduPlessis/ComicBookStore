@@ -1,0 +1,77 @@
+﻿@page
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device" , initial-scale="1.0" />
+    <title> About Us </title>
+
+    <style>
+
+        .para {
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+            .image-container img {
+                display: inline-block;
+                width: 25%;
+                float: left;
+            }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow-y: scroll;
+            overflow: hidden;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+    <p class="para">
+        Welcome to my comic business! We are dedicated to providing high-quality comics to our customers and sharing our enthusiasm for this exciting medium with the rest of the world.
+        My company sells a wide range of comic books, from classic titles to the most recent releases, in a variety of genres such as superheroes, fantasy, science fiction, horror, and more.
+        We strive to cater to our customers' diverse interests and ensure that there is something for everyone.
+        We are committed to providing excellent customer service and to building a welcoming and inclusive community for all comic book fans. Thank you for making us your go-to
+        source for all things comics!
+    </p>
+
+    <div class="image-container">
+        <img src="~/images/SuperMan.jpeg" alt="Image 1">
+        <img src="~/images/Spiderman.jpeg" alt="Image 2">
+        <img src="~/images/Xman.jpg" alt="Image 3">
+        <img src="~/images/Saga.jpeg" alt="Image 4">
+    </div>
+    </main>
+</body>
+</html>

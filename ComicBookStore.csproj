@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Pages\Favorites.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Dr Strange.jpeg" />
+    <None Include="wwwroot\images\SuperMan.jpeg" />
+    <None Include="wwwroot\images\SuperMan.jpg" />
+    <None Include="wwwroot\images\TheTitans.jpg" />
+    <None Include="wwwroot\images\TheTitans1.jpg" />
+  </ItemGroup>
+
+</Project>
